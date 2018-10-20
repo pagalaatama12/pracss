@@ -5,7 +5,7 @@ public static void showBytes()
     try
 	{
 		Unsafe unsafe = getUnsafe();
-		
+		//Check this
 		byte value = Byte.MAX_VALUE;
 		long bytes = 1;	
 		unsafe.putAddress(memoryAddress, value); // or putByte
